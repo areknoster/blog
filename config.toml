@@ -53,7 +53,7 @@ enableEmoji = true
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Arek Noster blog"
+      name = ""
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -145,12 +145,12 @@ enableEmoji = true
       # Gravatar Email for preferred avatar in home page
       gravatarEmail = ""
       # URL of avatar shown in home page
-      avatarURL = ""
+      avatarURL = "/images/arek_face_square.webp"
       # title shown in home page (HTML format is supported)
-      title = ""
+      title = "Arek's blog - Tech, Finance and Whatever."
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "This is my cool site"
+      subtitle = ""
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -170,8 +170,8 @@ enableEmoji = true
   # Social config in home page
   # 主页的社交信息设置
   [params.social]
-    GitHub = ""
-    Linkedin = ""
+    GitHub = "https://github.com/areknoster"
+    Linkedin = "https://www.linkedin.com/in/arkadiusz-noster/"
     Twitter = ""
     Instagram = ""
     Facebook = ""
@@ -242,7 +242,7 @@ enableEmoji = true
     Plume = ""
     HackTheBox = ""
     RootMe= ""
-    Email = ""
+    Email = "arkadiusz.noster+blog@gmail.com"
     Phone = ""
     RSS = ""
 
