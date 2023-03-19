@@ -1,8 +1,25 @@
 baseURL = 'https://arekn.net'
-languageCode = 'en-us'
+
+languageCode = "en"
+languageName = "English"
+
 title = 'Arek Noster | Blog'
 theme = 'loveit'
 disqusShortname = 'arekn'
+
+# language code ["en", "zh-CN", "fr", "pl", ...]
+hasCJKLanguage = false
+paginate = 12
+googleAnalytics = "G-P9EE4PXQK8"
+# copyright description used only for seo schema
+copyright = ""
+
+# whether to use robots.txt
+enableRobotsTXT = true
+# whether to use git commit log
+enableGitInfo = true
+# whether to use emoji code
+enableEmoji = true
 
 [module]
   [module.hugoVersion]
@@ -352,7 +369,7 @@ disqusShortname = 'arekn'
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = true
